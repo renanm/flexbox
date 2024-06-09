@@ -1,9 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@charset "utf-8";
+/* CSS Document */
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #fefefe;
     font-family: monospace;
 }
@@ -15,13 +15,13 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header a {
     color: #fff;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 1.4em;
 }
 
@@ -31,10 +31,9 @@ nav {
 
 nav ul {
     list-style: none;
-    display: inline-flex;
-    justify-content: space-between;
-    gap: 2.3em;
-    margin-right: 20px;
+    display: flex;
+    gap: 30px;
+    margin-right: 15px;
     padding: 0;
     flex-wrap: nowrap;
 }
@@ -60,7 +59,7 @@ section {
     width: 80%;
     margin: auto;
     flex-wrap: wrap;
-    gap: 1.4em;
+    gap: 20px;
 }
 
 article {
@@ -88,7 +87,7 @@ article p {
     nav ul {
         flex-direction: column;
         justify-content: space-between;
-        gap: 0.6em;
+        gap: 10px;
     }
 
     nav ul li {
